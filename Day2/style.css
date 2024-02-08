@@ -1,0 +1,27 @@
+p::first-line {
+    font-weight: bold;
+}
+a[href^="https://"] {
+    color: green;
+}
+.highlight {
+    font-weight: bold;
+}
+ul:first-of-type {
+    color: green;
+}
+ul li:first-child {
+    text-decoration: underline;
+}
+input[type="text"] {
+    border: 1px solid red;
+}
+div > p {
+    font-size: 1.2em;
+}
+p:last-child {
+    border: 2px solid black;
+}
+a:hover {
+    color: orange;
+}
